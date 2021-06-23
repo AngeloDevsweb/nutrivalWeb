@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navegacion from './components/Navegacion';
+import Proteinas from './components/Proteinas';
+import Carbos from './components/Carbos';
+import Grasas from './components/Grasas';
+import Fibras from './components/Fibras';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navegacion/>
+      <Route path="/" exact component={Proteinas} />
+      <Route path="/carbohidratos" component={Carbos} />
+      <Route path="/grasas" component={Grasas} />
+      <Route path="/fibras" component={Fibras} />
+    </Router>
   );
 }
 
