@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/nutrivalWeb/static/css/main.737c5d07.chunk.css",
+    "main.js": "/nutrivalWeb/static/js/main.c2d640cf.chunk.js",
+    "main.js.map": "/nutrivalWeb/static/js/main.c2d640cf.chunk.js.map",
+    "runtime-main.js": "/nutrivalWeb/static/js/runtime-main.5cebad86.js",
+    "runtime-main.js.map": "/nutrivalWeb/static/js/runtime-main.5cebad86.js.map",
+    "static/js/2.6e9f70d1.chunk.js": "/nutrivalWeb/static/js/2.6e9f70d1.chunk.js",
+    "static/js/2.6e9f70d1.chunk.js.map": "/nutrivalWeb/static/js/2.6e9f70d1.chunk.js.map",
+    "index.html": "/nutrivalWeb/index.html",
+    "static/css/main.737c5d07.chunk.css.map": "/nutrivalWeb/static/css/main.737c5d07.chunk.css.map",
+    "static/js/2.6e9f70d1.chunk.js.LICENSE.txt": "/nutrivalWeb/static/js/2.6e9f70d1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cebad86.js",
+    "static/js/2.6e9f70d1.chunk.js",
+    "static/css/main.737c5d07.chunk.css",
+    "static/js/main.c2d640cf.chunk.js"
+  ]
+}
